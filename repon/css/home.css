@@ -1,0 +1,91 @@
+.div__sp-first {
+    background: red;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 100px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* code được viết khởi tạo từ màn 0px	 */
+}
+
+@media (min-width: 375px) {
+    .div__sp-first {
+        width: 100%;
+        font-size: 28px;
+        background-color: yellow;
+        /* 	// code bắt đầu đc lấy từ màn 375 trở lên */
+    }
+}
+
+@media (min-width: 768px) {
+    .div__sp-first {
+        width: 100%;
+        font-size: 28px;
+        background-color: aqua;
+        /* 	// code bắt đầu đc lấy từ màn 768 trở lên */
+    }
+}
+
+@media (min-width: 992px) {
+    .div__sp-first {
+        width: 100%;
+        font-size: 34px;
+        background-color: blueviolet;
+        /* 	// code bắt đầu đc lấy từ màn 992 trở lên */
+    }
+}
+
+@media (min-width: ...) {
+    /*  // code bắt đầu đc lấy từ màn ... trở lên */
+}
+
+
+/*  */
+
+
+/*  */
+
+
+/*  */
+
+
+/*  */
+
+
+/*  */
+
+.div__pc-first {
+    background: green;
+    width: 100%;
+    height: 300px;
+    color: #fff;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 1199px) {
+    .div__pc-first {
+        width: 1000px;
+        font-size: 18px;
+        /* 	// code bắt đầu đc lấy từ màn 1199 trở xuống */
+    }
+}
+
+@media (max-width: 991px) {
+    .div__pc-first {
+        width: 300px;
+        font-size: 14px;
+        /* 	// code bắt đầu đc lấy từ màn 991 trở xuống */
+    }
+}
+
+@media (max-width: ...) {
+    /*  // code bắt đầu đc lấy từ màn ... trở xuống */
+}
